@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Certo ou Errado</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Inclua o arquivo CSS externo aqui -->
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Certo ou Errado</h1>
+        <div class="question" id="pergunta">
+            <!-- A pergunta será exibida dinamicamente aqui -->
+        </div>
+
+        <div id="mensagem" style="display: none;"></div>
+        
+        <!-- Área de exibição de mensagens -->
+
+        <button class="button" onclick="resposta('certo')">Certo</button>
+        <button class="button" onclick="resposta('errado')">Errado</button>
+
+        <!-- Botões de resposta -->
+
+        <div id="resultado" style="display: none;">
+            <h2>Resultado</h2>
+            <p id="acertos"></p>
+            <button class="button" onclick="iniciarNovoQuiz()">Novo Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Inclua o arquivo JavaScript externo aqui -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

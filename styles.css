@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.quiz-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #90abc9;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.question {
+    margin-bottom: 40px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* styles.css */
+/* ... (seu código CSS existente) */
+
+/* Estilo para resposta correta */
+.correct-answer {
+    background-color: #4CAF50;
+}
+
+/* Estilo para resposta incorreta */
+.incorrect-answer {
+    background-color: #FF5733;
+}
